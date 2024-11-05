@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}UserCreationForm Django Site{% endblock %}</title>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        {% block content %}
+        <!-- Content specific to each page will be inserted here -->
+        {% endblock content %}
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; {{ year }} My Django Site. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
