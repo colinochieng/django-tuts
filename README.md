@@ -1,1 +1,1 @@
-## Practcising with Django
+## Practicing with Django
